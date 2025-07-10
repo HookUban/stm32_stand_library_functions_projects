@@ -20,9 +20,9 @@ int main()
 	GPIO_WriteBit(GPIOA, GPIO_Pin_0, Bit_SET);
 	while(1)
 	{
-//		GPIO_WriteBit(GPIOA, GPIO_Pin_0, (BitAction)0);
-//		Delay_ms(1000);
-//		GPIO_WriteBit(GPIOA, GPIO_Pin_0, (BitAction)1);
-//		Delay_ms(1000);
+		GPIO_WriteBit(GPIOA, GPIO_Pin_0, (BitAction)0);
+		Delay_ms(1000);
+		GPIO_WriteBit(GPIOA, GPIO_Pin_0, (BitAction)1);
+		Delay_ms(1000);
 	}
 }
